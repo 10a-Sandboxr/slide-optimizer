@@ -1142,7 +1142,7 @@ body {
 .personalization-steps p {
     margin-bottom: 15px;
     color: var(--primary-color);
-    font-size: 1.1rem;
+    font-size: 0.4rem;
 }
 
 .step-placeholder {
