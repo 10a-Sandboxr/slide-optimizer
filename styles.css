@@ -410,6 +410,50 @@ body {
     margin-top: 20px;
 }
 
+.context-requirements {
+    background: var(--bg-secondary);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-left: 4px solid var(--accent-color);
+}
+
+.context-requirements p {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.requirements-list {
+    margin: 15px 0 20px 20px;
+    padding: 0;
+}
+
+.requirements-list li {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.security-note {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 212, 255, 0.1);
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-color);
+}
+
+.security-note i {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+.security-note span {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
 .tag {
     background: var(--primary-color);
     color: white;
